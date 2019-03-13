@@ -1,0 +1,70 @@
+
+body {
+  background-color: rgb(230,230,230);
+  font-family: 'Lato', sans-serif;
+  color: black;
+
+}
+
+h1, h2 {
+  font-family: 'Patua One', cursive;
+  color: black;
+}
+
+/*a{
+  text-decoration: none;
+  color: #FC5424;
+}*/
+
+a:hover {
+  color: #C8353C;
+}
+
+p {
+  text-align: center;
+  /*text-align: justify;*/
+}
+
+
+#img-circle {
+  border-radius: 60%;
+  width:250px;
+}
+
+#img-circle:hover {
+  opacity: 0.5;
+}
+
+/*#company-circle {
+  border-radius: 50%;
+  height: 100px;
+  width:100px;
+  object-fit: fill;
+}*/
+
+/*.container-white ul{
+  list-style: none;
+}*/
+
+.list-inline li {
+  display: inline-block;
+}
+
+.icon {
+  margin: 10px;
+  font-size:50px;
+}
+
+.container-white {
+  width: 600px;
+  padding: 10px;
+  background-color: rgb(250,250,250);
+  margin: 25px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+ul.list-inline{
+  padding-left: 0;
+}
